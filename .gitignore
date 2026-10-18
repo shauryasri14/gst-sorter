@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+
+# Private data: never commit real invoices, databases, logs or exports
+data/*
+!data/.gitkeep
+*.sqlite3
+*.db
+exports/
+*.xlsx
+!tests/fixtures/*.xlsx

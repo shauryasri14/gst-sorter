@@ -1,0 +1,4 @@
+file,vendor_name,vendor_gstin,buyer_name,buyer_gstin,invoice_number,invoice_date,taxable_amount,cgst,sgst,igst,total_amount,variant
+synthetic_001_clean.png,Dummy Patel Pharma Supplies,24PCHCT6955B2ZS,Beta Sample Studio,24WWUBU9593N1Z8,INV-7105,2025-12-10,7682.75,1075.58,1075.58,,9833.91,clean
+synthetic_002_rotated.png,Demo Singh Auto Parts,27BVGRX8711P6ZC,Delta Mock Consulting,29UQMKH2945Y4Z7,INV-76290,2026-04-21,34410.75,,,1720.54,36131.29,rotated
+synthetic_003_blurry.png,Dummy Patel Pharma Supplies,08BXCTU5140L6ZQ,Delta Mock Consulting,08UQCCJ7767Y2ZO,INV-96834,2025-09-27,17762.50,1598.62,1598.62,,20959.74,blurry

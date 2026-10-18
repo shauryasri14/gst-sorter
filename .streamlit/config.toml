@@ -1,0 +1,17 @@
+[server]
+# Local only. Do not change to 0.0.0.0 unless you understand that other devices on your network could then reach the app.
+address = "127.0.0.1"
+port = 8501
+headless = true
+maxUploadSize = 50
+
+[browser]
+# Disable Streamlit's anonymous usage statistics (telemetry).
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#1f6feb"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f4f6fa"
+textColor = "#1c2430"
+font = "sans serif"

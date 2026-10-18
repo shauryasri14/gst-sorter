@@ -1,0 +1,55 @@
+{
+  "data_dir": "data",
+  "ollama": {
+    "host": "http://127.0.0.1:11434",
+    "model": "qwen2.5:7b-instruct",
+    "timeout_s": 180,
+    "num_ctx": 8192,
+    "temperature": 0.0,
+    "max_ocr_chars": 12000
+  },
+  "ocr": {
+    "engine": "paddleocr",
+    "fallback_engine": "tesseract",
+    "lang": "en",
+    "tesseract_cmd": null,
+    "tesseract_psm": 4,
+    "low_confidence_threshold": 0.8,
+    "retry_with_original_below": 0.6
+  },
+  "preprocess": {
+    "enabled": true,
+    "auto_orient": true,
+    "grayscale": true,
+    "contrast": true,
+    "denoise": true,
+    "deskew": true,
+    "adaptive_threshold": false,
+    "max_deskew_angle": 15.0,
+    "keep_original_if_worse": true
+  },
+  "limits": {
+    "max_file_mb": 25,
+    "max_pages": 20,
+    "max_image_pixels": 40000000,
+    "max_image_side": 8000,
+    "pdf_dpi": 200
+  },
+  "processing": {
+    "pdf_mode": "per_file",
+    "batch_size": 10,
+    "pdf_backend": "auto"
+  },
+  "validation": {
+    "amount_tolerance": "1.00",
+    "date_day_first": true,
+    "flag_ambiguous_dates": true,
+    "warn_on_future_date": true,
+    "rate_check_enabled": false,
+    "rate_tolerance_pct": "0.15",
+    "required_fields": ["vendor_name", "vendor_gstin", "invoice_number", "invoice_date", "total_amount"]
+  },
+  "logging": {
+    "level": "INFO"
+  }
+}

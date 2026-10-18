@@ -1,0 +1,17 @@
+{
+  "_comment": "USER-MAINTAINED reference data, NOT legal advice. Rates differ by product/service and change over time; verify against official CBIC/GST Council notifications. The optional rate check only warns when the implied overall rate matches none of the listed rates for the invoice date. A mixed-rate invoice can legitimately show a blended rate.",
+  "periods": [
+    {
+      "from": "2017-07-01",
+      "to": "2025-09-21",
+      "rates_pct": ["0", "0.25", "1.5", "3", "5", "12", "18", "28"],
+      "note": "Rate slabs commonly used before the 2025 GST rate rationalisation. Verify before relying on it."
+    },
+    {
+      "from": "2025-09-22",
+      "to": null,
+      "rates_pct": ["0", "0.25", "1.5", "3", "5", "18", "40"],
+      "note": "Rate slabs commonly used after the 22 Sep 2025 rationalisation. Verify before relying on it; goods and services may have transitional or special rates."
+    }
+  ]
+}
